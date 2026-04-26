@@ -277,4 +277,8 @@ GPL-3.0-or-later. See `LICENSE` for details.
 BS-MS Physics, IISER Bhopal
 [github.com/aayush21-work](https://github.com/aayush21-work)
 
+**Prof. Rajib Saha** — supervision, theoretical framework, model development
+Department of Physics, IISER Bhopal
+[Faculty page](https://iiserb.ac.in/people-faculty?dept=phy&type=fac&fid=160)
+
 
