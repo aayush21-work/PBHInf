@@ -97,7 +97,7 @@ inline double V(double phi) {
 
 This is the polynomial $\alpha$-attractor potential
 
-$$V(\phi) = V_0 \, \frac{\phi^2}{(1+\phi)^2} \left[1 + A \exp\!\left(-\frac{(\phi-\phi_0)^2}{2\sigma^2}\right)\right]$$
+$$V(\phi) = V_0 \, \frac{\phi^2}{(1+\phi)^2} \left[1 + A \exp\left(-\frac{(\phi-\phi_0)^2}{2\sigma^2}\right)\right]$$
 
 with a Gaussian bump that triggers USR. Modify `V0`, `A`, `phi0`, `sigma`
 or replace `V(phi)` and `dV(phi)` entirely for other models.
