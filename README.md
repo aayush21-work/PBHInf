@@ -275,10 +275,10 @@ GPL-3.0-or-later. See `LICENSE` for details.
 
 **Aayush Randeep**
 BS-MS Physics, IISER Bhopal
-[github.com/aayush21-work](https://github.com/aayush21-work)
+[github.com/aayush21-work](https://aayush21-work.github.io/)
 
 **Prof. Rajib Saha** — supervision, theoretical framework, model development
 Department of Physics, IISER Bhopal
-[Faculty page]([https://iiserb.ac.in/people-faculty?dept=phy&type=fac&fid=160](https://home.iiserb.ac.in/~rajib/))
+[Faculty page](https://home.iiserb.ac.in/~rajib/)
 
 
