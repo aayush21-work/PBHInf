@@ -279,6 +279,6 @@ BS-MS Physics, IISER Bhopal
 
 **Prof. Rajib Saha** — supervision, theoretical framework, model development
 Department of Physics, IISER Bhopal
-[Faculty page](https://iiserb.ac.in/people-faculty?dept=phy&type=fac&fid=160)
+[Faculty page]([https://iiserb.ac.in/people-faculty?dept=phy&type=fac&fid=160](https://home.iiserb.ac.in/~rajib/))
 
 
