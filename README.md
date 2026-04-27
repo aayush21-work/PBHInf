@@ -174,7 +174,7 @@ ready for plotting and PBH/SIGW post-processing.
 ```bash
 python3 -c "
 import numpy as np, matplotlib.pyplot as plt
-d = np.loadtxt('power_spectrum_phys.dat')
+d = np.loadtxt('power_spectrum_Mpc.dat')
 plt.loglog(d[:,0], d[:,1])
 plt.xlabel(r'\$k\$ [Mpc\$^{-1}\$]')
 plt.ylabel(r'\$\\mathcal{P}_\\zeta(k)\$')
@@ -191,7 +191,7 @@ plt.savefig('power_spectrum.png', dpi=200)
 python3 fpbh.py
 ```
 
-This reads `power_spectrum_phys.dat`, applies the Press-Schechter formalism
+This reads `power_spectrum_Mpc.dat`, applies the Press-Schechter formalism
 with collapse threshold $\delta_c = 0.45$, and outputs $f_{\rm PBH}$ versus
 PBH mass.
 
@@ -215,8 +215,6 @@ Expected values for the default parameters at $N_e = 55$:
 | $n_s$    | 0.9742     | 0.9760    |
 | $r$      | 0.0138     | 0.0140    |
 
-Agreement to $\sim 0.2\%$ in $n_s$ and $\sim 1\%$ in $r$ is expected; the
-small discrepancy comes from sub-leading slow-roll corrections.
 
 ## Default model parameters
 
@@ -268,7 +266,7 @@ GPL-3.0-or-later. See `LICENSE` for details.
 BS-MS Physics, IISER Bhopal
 [github.com/aayush21-work](https://aayush21-work.github.io/)
 
-**Prof. Rajib Saha** — supervision, theoretical framework, model development
+**Prof. Rajib Saha** — Supervisior
 Department of Physics, IISER Bhopal
 [Faculty page](https://home.iiserb.ac.in/~rajib/)
 
