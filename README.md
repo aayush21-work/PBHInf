@@ -25,15 +25,6 @@ that amplifies $\mathcal{P}_\zeta$ from $\mathcal{O}(10^{-9})$ at CMB
 scales to $\mathcal{O}(10^{-2})$ at sub-horizon scales relevant for PBH
 formation.
 
-## Highlights
-
-- **Pure C++17**, no external dependencies (no CLASS, no CAMB, no GSL)
-- **~600 lines** total, compiles in 2 seconds
-- **High resolution** in the USR window
-- **Direct $\mathcal{R}_k$ integration** with proper Bunch-Davies initial
-  conditions deep inside the horizon
-- **Self-contained**: model definition, background, and perturbation in
-  three small files
 
 ## Repository structure
 
@@ -82,7 +73,7 @@ Open `src/model.hpp`. The potential is defined as:
 
 ```cpp
 inline constexpr double V0    = 0.79e-10;
-inline constexpr double A     = 0.001873;
+inline constexpr double A     = 1.873137e-3;
 inline constexpr double phi0  = 5.0;
 inline constexpr double sigma = 1.59e-2;
 
@@ -169,7 +160,7 @@ arbitrary normalization; see step 5).
 ```
 
 This identifies the pivot scale $k_\star = 0.05~\mathrm{Mpc}^{-1}$ in the
-output and rescales the entire $k$ axis. Writes `power_spectrum_phys.dat`
+output and rescales the entire $k$ axis. Writes `power_spectrum_Mpc.dat`
 with columns
 
 ```
